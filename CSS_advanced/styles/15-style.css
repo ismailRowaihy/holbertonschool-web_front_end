@@ -24,7 +24,7 @@
     --section-title-margin:0;
     --section-title-color:var(--color-black)
 }
-*::after{
+*::after::before{
     box-sizing:border-box;
 }
 html {
