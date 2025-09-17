@@ -84,10 +84,13 @@ ul.row{
     float: left;
     padding: 0.5rem;
 }
-.footer-copytight{
+.footer-copyright{
     margin: 0;
     font-size: var(--font-size-small);
     color: var(--text-color);
+}
+.footer ul{
+    text-align: right;
 }
 body {
     color: var(--text-color);
