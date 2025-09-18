@@ -230,7 +230,7 @@ a:active{
     left: -0.1rem;
     right: -0.1rem;
     z-index: 1 ;
-    transition: all var(--transition-duration) var(--transition-cubic-bezier);
+    transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 .card-work:hover .card-inner{
     background-color: rgba(0,0,0,0.7);
@@ -264,7 +264,6 @@ a:active{
 }
 .card-work:hover .card-outer {
     transform: scale(0.95);
-    transition: transform var(--transition-duration) var(--transition-cubic-bezier);
   }
 .section-hero{
     background-size: 90rem auto;
@@ -334,5 +333,4 @@ a:active{
     background-color: var(--button-hover-background);
     transition-duration: var(--transition-duration);
     transition-property: color, background-color;
-    transition-timing-function: var(--transition-cubic-bezier);
   }
