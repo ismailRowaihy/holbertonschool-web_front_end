@@ -94,14 +94,12 @@ html {
     background-color: var(--color-white);
     width: 0;
     height: 0.2rem;
+    transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 .nav .nav-item:hover .nav-link::before{
     background-color: var(--color-primary);
     width: 100%;
 }
-.nav .nav-link::before {
-    transition: var(--transition-duration) var(--transition-cubic-bezier);
-  }
 ul.row{
     margin: 0;
     padding: 0;
@@ -265,8 +263,6 @@ a:active{
 }
 .card-work:hover .card-outer {
     transform: scale(0.95);
-  }
-.card-work:hover .card-image {
     transition: transform var(--transition-duration) var(--transition-cubic-bezier);
   }
 .card-work .card-inner {
@@ -338,9 +334,6 @@ a:active{
     color: var(--button-hover-color);
     text-decoration: var(--button-hover-text-decoration);
     background-color: var(--button-hover-background);
-
-}
-.button:hover {
     transition-duration: var(--transition-duration);
     transition-property: color, background-color;
   }
